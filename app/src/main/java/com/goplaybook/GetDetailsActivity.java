@@ -118,18 +118,18 @@ public class GetDetailsActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder builder= new AlertDialog.Builder(this);
-        builder.setMessage("Do you really want to close");
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                GetDetailsActivity.super.onBackPressed();
-            }
-        });
-        builder.setNegativeButton("No",null);
-        builder.create();
-        builder.show();
-    }
+//    @Override
+//    public void onBackPressed() {
+//        AlertDialog.Builder builder= new AlertDialog.Builder(this);
+//        builder.setMessage("Do you really want to close");
+//        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                GetDetailsActivity.super.onBackPressed();
+//            }
+//        });
+//        builder.setNegativeButton("No",null);
+//        builder.create();
+//        builder.show();
+//    }
 }
